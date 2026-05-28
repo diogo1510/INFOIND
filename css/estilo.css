@@ -270,4 +270,5 @@ article:hover{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    width: 450px;
 }
