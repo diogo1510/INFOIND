@@ -200,9 +200,10 @@ footer {
 #inscricao form button {
     background-color: #e70101;
     color: whitesmoke;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 15px; 
+    
 }
 #img1 {
     background-image: url('../img/paiva.jpg');
@@ -258,9 +259,13 @@ article:hover{
     }
 }
 
-#input{
+.form{
     display: flex;
-flex-direction: column;
-
-
+    align-items: flex-end;
+    gap: 15px;
+}
+.bloco{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
